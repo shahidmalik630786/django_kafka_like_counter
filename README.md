@@ -16,17 +16,18 @@
 
 <p>ramp up:- 1 # in  every 1 sec 10 user will send the request.</p>
 
+<h2>Project Explanation</h2>
 
 <p>1)In this project we have created a like counter where when we send 1000 of request and update like on post without kafka db crashes and db is locked so to overcome this problem 
 we have used kafka.</p>
 
 <p>2)Here we have created a model post which store title and like.</p>
 
-<p>3)we have created a views with function <h3>post_like</h3>.</p>
+<p>3)we have created a views with function <b>post_like</b>.</p>
 
-<p>4)after that it calls for <h3>send_like_event(post_id)</h3>.</p>
+<p>4)after that it calls for <b>send_like_event(post_id)</b>.</p>
 
-<p>5)this is a function part of <h3>kafka_producer.py</h3> which will act as kafka producer.</p>
+<p>5)this is a function part of <b>kafka_producer.py</b> which will act as kafka producer.</p>
 
-6)<p>we will also run <h3>python manage.py kafka_consumer</h3> which will consume the data and store in db.</p>
+6)<p>we will also run <b>python manage.py kafka_consumer</b> which will consume the data and store in db.</p>
 
