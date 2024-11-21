@@ -29,5 +29,5 @@ we have used kafka.</p>
 
 <p>5)this is a function part of <b>kafka_producer.py</b> which will act as kafka producer.</p>
 
-6)<p>we will also run <b>python manage.py kafka_consumer</b> which will consume the data and store in db.</p>
+<p>6)we will also run <b>python manage.py kafka_consumer</b> which will consume the data and store in db.</p>
 
